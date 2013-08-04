@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>com.nvkit.game</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.sybase.stf.powerdesigner.eclipse.PowerDesignerNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>com.nvkit.game.oom</name>
+			<type>1</type>
+			<location>C:/Users/Welcome/Game Project/com.nvkit.game.oom</location>
+		</link>
+	</linkedResources>
+</projectDescription>
