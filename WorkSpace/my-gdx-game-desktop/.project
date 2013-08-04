@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MyGameModel</name>
+	<name>my-gdx-game-desktop</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -12,7 +12,13 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>ModelingProjectNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>assets</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/my-gdx-game-android/assets</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

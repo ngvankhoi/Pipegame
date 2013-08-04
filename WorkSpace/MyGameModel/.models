@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core.ProjectElement res="/MyGameModel" version="15.0">
+ <prj.core.PrjModelElement res="newProject.PRJ" fnam="newProject.PRJ" oid="{C3F447C3-3FA2-4A7E-AEC9-EBE624237258}" />
+ <oom.core.OomModelElement res="ObjectDiagram.oom" fnam="ObjectDiagram.oom" oid="{17B67025-0E2D-44F7-8345-0BDF7621FB46}" lang="Java" />
+ <oom.core.OomModelElement res="PipeGame.oom" fnam="PipeGame.oom" oid="{65ED77C5-89B9-470C-8A59-0813AF017D89}" lang="Java" />
+ <rqm.core.RqmModelElement res="yeu cau.rqm" fnam="yeu cau.rqm" oid="{988AF66A-B9E6-4D43-B9D9-E8D3562BD95D}" />
+</core.ProjectElement>

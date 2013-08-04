@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<core.ProjectElement res="/my-gdx-game" version="15.0">
+ <oom.core.OomModelElement res="Mota.oom" fnam="Mota.oom" sync="true" oid="{8987037D-BD5F-4D8B-B893-E14D2C6DA825}" mdat="1375638408895" lang="Java">
+  <oom.core.OomPackageElement res="/my-gdx-game/src" oid="{00000000-0000-0000-0000-000000000000}" />
+  <oom.core.OomPackageElement res="/my-gdx-game/src/com" sync="true" oid="{99982031-A961-414A-8BE8-BCB3E62FB615}">
+   <oom.core.OomPackageElement res="badlogic" sync="true" oid="{883DD98D-367D-4833-A0D2-A2A5CB04C7F8}">
+    <oom.core.OomPackageElement res="gdx" sync="true" oid="{D1F8971F-D5D4-4793-86A7-0AFC28EB133C}">
+     <oom.core.OomPackageElement res="graphics" sync="true" oid="{C6E8F334-EA03-439D-B444-B07BBBD1F3E1}">
+      <oom.core.OomPackageElement res="g2d" sync="true" oid="{B80652AD-DAD4-4833-ADD4-98E713BF6B96}">
+      </oom.core.OomPackageElement>
+     </oom.core.OomPackageElement>
+    </oom.core.OomPackageElement>
+   </oom.core.OomPackageElement>
+   <oom.core.OomPackageElement res="nvkit" sync="true" oid="{A7F5E5BB-975D-46E9-B531-C5D123493FB2}">
+    <oom.core.OomPackageElement res="mygame" sync="true" oid="{59CF4545-89C9-40E3-9B90-48B4ACE91C3E}">
+     <oom.core.OomPackageElement res="concept" sync="true" oid="{0B362FA8-9295-4632-9FBA-02FFB29D61FB}">
+      <oom.roundtrip.ModelCodeSyncElement ocode="IBoard" res="IBoard.java" oid="{0D69E6C8-33E4-4B41-A1B7-189E093BA4F4}" fmdat="1375637943125">
+       <timestamp oid="{0D69E6C8-33E4-4B41-A1B7-189E093BA4F4}" omdat="1375635900000" />
+      </oom.roundtrip.ModelCodeSyncElement>
+      <oom.roundtrip.ModelCodeSyncElement ocode="ICell" res="ICell.java" oid="{597F096A-6F0E-4BE9-B8BF-18623029A3B8}" fmdat="1375637160587">
+       <timestamp oid="{597F096A-6F0E-4BE9-B8BF-18623029A3B8}" omdat="1375635480000" />
+      </oom.roundtrip.ModelCodeSyncElement>
+      <oom.roundtrip.ModelCodeSyncElement ocode="IMap" res="IMap.java" oid="{C832361B-4EAD-4B5E-8651-85346DBAC2CE}" fmdat="1375636432458">
+       <timestamp oid="{C832361B-4EAD-4B5E-8651-85346DBAC2CE}" omdat="1375636140000" />
+      </oom.roundtrip.ModelCodeSyncElement>
+     </oom.core.OomPackageElement>
+     <oom.roundtrip.ModelCodeSyncElement ocode="MyGame" res="MyGame.java" oid="{3FF734F0-53A8-4DB2-961C-C867B36DF330}" fmdat="1375637353595">
+      <timestamp oid="{3FF734F0-53A8-4DB2-961C-C867B36DF330}" omdat="1375634880000" />
+     </oom.roundtrip.ModelCodeSyncElement>
+     <oom.core.OomPackageElement res="gameobject" sync="true" oid="{C2327E54-1642-4710-963C-FC53FC83C7A7}">
+      <oom.roundtrip.ModelCodeSyncElement ocode="Cell" res="Cell.java" oid="{D040874E-1B3A-4E4A-A76E-9A21C95B6EC4}" fmdat="1375638405196">
+       <timestamp oid="{D040874E-1B3A-4E4A-A76E-9A21C95B6EC4}" omdat="1375638360000" />
+      </oom.roundtrip.ModelCodeSyncElement>
+      <oom.roundtrip.ModelCodeSyncElement ocode="Board" res="Board.java" oid="{F3CA29A9-C049-4BF3-AE7A-7942636C4C9F}" fmdat="1375638052843">
+       <timestamp oid="{F3CA29A9-C049-4BF3-AE7A-7942636C4C9F}" omdat="1375638000000" />
+      </oom.roundtrip.ModelCodeSyncElement>
+     </oom.core.OomPackageElement>
+    </oom.core.OomPackageElement>
+   </oom.core.OomPackageElement>
+  </oom.core.OomPackageElement>
+ </oom.core.OomModelElement>
+</core.ProjectElement>
