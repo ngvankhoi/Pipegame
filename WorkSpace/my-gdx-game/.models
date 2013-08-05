@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <core.ProjectElement res="/my-gdx-game" version="15.0">
- <oom.core.OomModelElement res="Mota.oom" fnam="Mota.oom" sync="true" oid="{8987037D-BD5F-4D8B-B893-E14D2C6DA825}" lang="Java">
-  <oom.core.OomPackageElement res="/my-gdx-game" oid="{00000000-0000-0000-0000-000000000000}" />
+ <oom.core.OomModelElement res="Mota.oom" fnam="Mota.oom" sync="true" oid="{8987037D-BD5F-4D8B-B893-E14D2C6DA825}" mdat="1375695198139" lang="Java">
+  <oom.core.OomPackageElement res="/my-gdx-game/src" oid="{00000000-0000-0000-0000-000000000000}" />
   <oom.core.OomPackageElement res="/my-gdx-game/src/com" oid="{99982031-A961-414A-8BE8-BCB3E62FB615}">
    <oom.core.OomPackageElement res="nvkit" sync="true" oid="{A7F5E5BB-975D-46E9-B531-C5D123493FB2}">
     <oom.core.OomPackageElement res="mygame" sync="true" oid="{D90D4FC4-AB2A-448B-86E5-5D948F68E298}">
-     <oom.roundtrip.ModelCodeSyncElement ocode="MyGame" res="MyGame.java" oid="{B59203AF-852E-4BA8-822E-FD7EFEFFE0C3}" fmdat="1375693720548">
-      <timestamp oid="{B59203AF-852E-4BA8-822E-FD7EFEFFE0C3}" omdat="1375693680000" />
+     <oom.roundtrip.ModelCodeSyncElement ocode="MyGame" res="MyGame.java" oid="{B59203AF-852E-4BA8-822E-FD7EFEFFE0C3}" fmdat="1375695129686">
+      <timestamp oid="{B59203AF-852E-4BA8-822E-FD7EFEFFE0C3}" omdat="1375695120000" />
      </oom.roundtrip.ModelCodeSyncElement>
      <oom.core.OomPackageElement res="concept" sync="true" oid="{497A7B10-F304-462D-92F9-152CDCF73ED6}">
-      <oom.roundtrip.ModelCodeSyncElement ocode="ICell" res="ICell.java" oid="{E146C5EB-9804-4A7D-B413-4E72AC1E4320}" fmdat="1375693720584">
+      <oom.roundtrip.ModelCodeSyncElement ocode="ICell" res="ICell.java" oid="{E146C5EB-9804-4A7D-B413-4E72AC1E4320}" fmdat="1375695129958">
        <timestamp oid="{E146C5EB-9804-4A7D-B413-4E72AC1E4320}" omdat="1375691340000" />
       </oom.roundtrip.ModelCodeSyncElement>
-      <oom.roundtrip.ModelCodeSyncElement ocode="IBoard" res="IBoard.java" oid="{3AE233DE-BE43-403D-BAF3-8165829522A9}" fmdat="1375693759390">
+      <oom.roundtrip.ModelCodeSyncElement ocode="IBoard" res="IBoard.java" oid="{3AE233DE-BE43-403D-BAF3-8165829522A9}" fmdat="1375695129988">
        <timestamp oid="{3AE233DE-BE43-403D-BAF3-8165829522A9}" omdat="1375693740000" />
       </oom.roundtrip.ModelCodeSyncElement>
      </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="gameobject" sync="true" oid="{64AD5788-74F6-4E15-AD1F-1951B2537495}">
-      <oom.roundtrip.ModelCodeSyncElement ocode="Cell" res="Cell.java" oid="{7AD6BBD1-B885-493A-8BE2-3555634E116F}" fmdat="1375693720324">
+      <oom.roundtrip.ModelCodeSyncElement ocode="Cell" res="Cell.java" oid="{7AD6BBD1-B885-493A-8BE2-3555634E116F}" fmdat="1375695129454">
        <timestamp oid="{7AD6BBD1-B885-493A-8BE2-3555634E116F}" omdat="1375691460000" />
       </oom.roundtrip.ModelCodeSyncElement>
-      <oom.roundtrip.ModelCodeSyncElement ocode="Board" res="Board.java" oid="{0C7554EC-D8CD-4063-B375-9B0F78ED73D4}" fmdat="1375693720376">
-       <timestamp oid="{0C7554EC-D8CD-4063-B375-9B0F78ED73D4}" omdat="1375693680000" />
+      <oom.roundtrip.ModelCodeSyncElement ocode="Board" res="Board.java" oid="{0C7554EC-D8CD-4063-B375-9B0F78ED73D4}" fmdat="1375695129504">
+       <timestamp oid="{0C7554EC-D8CD-4063-B375-9B0F78ED73D4}" omdat="1375695120000" />
       </oom.roundtrip.ModelCodeSyncElement>
      </oom.core.OomPackageElement>
     </oom.core.OomPackageElement>
@@ -30,55 +30,78 @@
     <oom.core.OomPackageElement res="gdx" oid="{A0AEB4F9-827A-4F7A-B1D1-BF5FF7DB8657}">
      <oom.core.OomPackageElement res="assets" oid="{D7EAA1B2-4F8F-4B83-A350-DE7AFE50750E}">
       <oom.core.OomPackageElement res="loaders" oid="{01225C1A-DDEC-40B0-840B-B6D26A5BA432}">
-       <oom.core.OomPackageElement res="resolvers" oid="{0F820743-2597-45D3-B867-0BA22F90978F}" />
+       <oom.core.OomPackageElement res="resolvers" oid="{0F820743-2597-45D3-B867-0BA22F90978F}">
+       </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
-     <oom.core.OomPackageElement res="audio" oid="{3BC80D66-CC77-4699-940D-0DF5F1BA8A3B}" />
-     <oom.core.OomPackageElement res="files" oid="{140253D4-F400-4127-9FAD-219553189E08}" />
+     <oom.core.OomPackageElement res="audio" oid="{3BC80D66-CC77-4699-940D-0DF5F1BA8A3B}">
+     </oom.core.OomPackageElement>
+     <oom.core.OomPackageElement res="files" oid="{140253D4-F400-4127-9FAD-219553189E08}">
+     </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="graphics" oid="{136A7595-AB62-45D4-88B7-6DF7488C328D}">
       <oom.core.OomPackageElement res="g2d" oid="{BB461123-3FE1-47C2-AB7C-B0E1F2758D49}">
-       <oom.core.OomPackageElement res="tiled" oid="{1F5ED8FE-96C6-41F0-95A0-D524FBE5AC1B}" />
+       <oom.core.OomPackageElement res="tiled" oid="{1F5ED8FE-96C6-41F0-95A0-D524FBE5AC1B}">
+       </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
       <oom.core.OomPackageElement res="g3d" oid="{9983A9F8-9406-48FE-9266-F481520B16F3}">
-       <oom.core.OomPackageElement res="decals" oid="{F23CEBD6-1D6B-4ACA-8D54-26DCD8FFDC28}" />
+       <oom.core.OomPackageElement res="decals" oid="{F23CEBD6-1D6B-4ACA-8D54-26DCD8FFDC28}">
+       </oom.core.OomPackageElement>
        <oom.core.OomPackageElement res="loaders" oid="{0CE3E439-124B-4F0F-83FC-69586F8505C8}">
         <oom.core.OomPackageElement res="g3d" oid="{916CA26D-9727-4668-B1E2-9BF9E28D5D64}">
-         <oom.core.OomPackageElement res="chunks" oid="{9B570AA0-D81C-49E0-B220-BBD7583E5043}" />
+         <oom.core.OomPackageElement res="chunks" oid="{9B570AA0-D81C-49E0-B220-BBD7583E5043}">
+         </oom.core.OomPackageElement>
         </oom.core.OomPackageElement>
-        <oom.core.OomPackageElement res="md2" oid="{2F142A62-334D-4F44-BFCB-CA43C1B37E75}" />
-        <oom.core.OomPackageElement res="wavefront" oid="{E77BEB73-B4B7-4B50-BF5F-19E675A878EE}" />
+        <oom.core.OomPackageElement res="md2" oid="{2F142A62-334D-4F44-BFCB-CA43C1B37E75}">
+        </oom.core.OomPackageElement>
+        <oom.core.OomPackageElement res="wavefront" oid="{E77BEB73-B4B7-4B50-BF5F-19E675A878EE}">
+        </oom.core.OomPackageElement>
        </oom.core.OomPackageElement>
-       <oom.core.OomPackageElement res="materials" oid="{B66F6DC7-2C15-41B9-BD24-F4FC20E20755}" />
+       <oom.core.OomPackageElement res="materials" oid="{B66F6DC7-2C15-41B9-BD24-F4FC20E20755}">
+       </oom.core.OomPackageElement>
        <oom.core.OomPackageElement res="model" oid="{423ABDB8-6C46-4858-AFE0-FD7FB4607081}">
-        <oom.core.OomPackageElement res="keyframe" oid="{6B5FD8AA-AF27-4708-8EB2-19AE9022D7C6}" />
-        <oom.core.OomPackageElement res="skeleton" oid="{4FD4B772-3474-4830-8428-669B914BE589}" />
-        <oom.core.OomPackageElement res="still" oid="{11C8110D-69BA-4263-B1D9-530230BEA973}" />
+        <oom.core.OomPackageElement res="keyframe" oid="{6B5FD8AA-AF27-4708-8EB2-19AE9022D7C6}">
+        </oom.core.OomPackageElement>
+        <oom.core.OomPackageElement res="skeleton" oid="{4FD4B772-3474-4830-8428-669B914BE589}">
+        </oom.core.OomPackageElement>
+        <oom.core.OomPackageElement res="still" oid="{11C8110D-69BA-4263-B1D9-530230BEA973}">
+        </oom.core.OomPackageElement>
        </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
-      <oom.core.OomPackageElement res="glutils" oid="{88B3C65D-77A7-4B49-8E77-57CF0AD8891D}" />
+      <oom.core.OomPackageElement res="glutils" oid="{88B3C65D-77A7-4B49-8E77-57CF0AD8891D}">
+      </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
-     <oom.core.OomPackageElement res="input" oid="{E68D6B0C-583A-4416-9197-B92844EBA54D}" />
+     <oom.core.OomPackageElement res="input" oid="{E68D6B0C-583A-4416-9197-B92844EBA54D}">
+     </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="math" oid="{CCFD9C8A-D032-445E-93E4-9C6F041B91E5}">
-      <oom.core.OomPackageElement res="collision" oid="{E4169A68-9A49-4A46-83EB-F40E51401422}" />
+      <oom.core.OomPackageElement res="collision" oid="{E4169A68-9A49-4A46-83EB-F40E51401422}">
+      </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
-     <oom.core.OomPackageElement res="net" oid="{868F8191-7877-407D-9AE3-B5012701CDB0}" />
+     <oom.core.OomPackageElement res="net" oid="{868F8191-7877-407D-9AE3-B5012701CDB0}">
+     </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="physics" oid="{7705C265-09D0-46C9-851E-B0115929E05E}">
       <oom.core.OomPackageElement res="box2d" oid="{28923A78-7A59-4404-B4E7-E77061D6C7BC}">
-       <oom.core.OomPackageElement res="joints" oid="{43B1C222-E3A6-4693-8D30-57ACAFAF4187}" />
+       <oom.core.OomPackageElement res="joints" oid="{43B1C222-E3A6-4693-8D30-57ACAFAF4187}">
+       </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="scenes" oid="{1085E653-CC30-4F86-B202-31FB727EEC45}">
       <oom.core.OomPackageElement res="scene2d" oid="{7A42C253-976C-4A67-BD2E-03EED492D0EF}">
-       <oom.core.OomPackageElement res="actions" oid="{6CF78D88-AFB3-4A7F-B3BC-93E412A960BD}" />
-       <oom.core.OomPackageElement res="ui" oid="{AAA38557-FA6B-464E-A77D-9CE50DC59B9F}" />
-       <oom.core.OomPackageElement res="utils" oid="{EAF84671-666A-4CC0-ADF3-176656576DF2}" />
+       <oom.core.OomPackageElement res="actions" oid="{6CF78D88-AFB3-4A7F-B3BC-93E412A960BD}">
+       </oom.core.OomPackageElement>
+       <oom.core.OomPackageElement res="ui" oid="{AAA38557-FA6B-464E-A77D-9CE50DC59B9F}">
+       </oom.core.OomPackageElement>
+       <oom.core.OomPackageElement res="utils" oid="{EAF84671-666A-4CC0-ADF3-176656576DF2}">
+       </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
      <oom.core.OomPackageElement res="utils" oid="{99AF9132-0D69-4C5C-8F16-2BDC95FA3030}">
       <oom.core.OomPackageElement res="compression" oid="{15842DFC-2390-49D4-9CBE-1767CFFC5FC4}">
-       <oom.core.OomPackageElement res="lz" oid="{B5E9FF0F-9597-403C-BCD5-A16114414271}" />
-       <oom.core.OomPackageElement res="lzma" oid="{0472C405-4BC8-4875-B284-549131031FD5}" />
-       <oom.core.OomPackageElement res="rangecoder" oid="{6217EDFC-B985-49BF-857D-CC94D9257DF6}" />
+       <oom.core.OomPackageElement res="lz" oid="{B5E9FF0F-9597-403C-BCD5-A16114414271}">
+       </oom.core.OomPackageElement>
+       <oom.core.OomPackageElement res="lzma" oid="{0472C405-4BC8-4875-B284-549131031FD5}">
+       </oom.core.OomPackageElement>
+       <oom.core.OomPackageElement res="rangecoder" oid="{6217EDFC-B985-49BF-857D-CC94D9257DF6}">
+       </oom.core.OomPackageElement>
       </oom.core.OomPackageElement>
      </oom.core.OomPackageElement>
     </oom.core.OomPackageElement>
