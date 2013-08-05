@@ -11,7 +11,7 @@ import java.util.*;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
 /** @pdOid e146c5eb-9804-4a7d-b413-4e72ac1e4320 */
-public interface ICell extends IDrawableObject {
+public interface ICell extends IEntity {
    /** @pdOid d2c3c2dd-d105-4270-aafe-a85617c6d770 */
    Point getLocation();
    /** @param board

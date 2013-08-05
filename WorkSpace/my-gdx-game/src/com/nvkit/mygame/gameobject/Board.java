@@ -9,6 +9,7 @@ package com.nvkit.mygame.gameobject;
 import java.lang.annotation.*;
 import java.awt.Point;
 import java.util.*;
+import com.nvkit.mygame.GameEntity;
 import com.nvkit.mygame.concept.IBoard;
 
 /** @pdOid 0c7554ec-d8cd-4063-b375-9b0f78ed73d4 */
@@ -74,7 +75,10 @@ public abstract class Board extends com.badlogic.gdx.graphics.g2d.SpriteBatch im
    	
    }
    
-   /** @param pt
+   /**  @pdOid 39783b47-8141-4ea1-80c2-0960f78c5a30 
+    * 
+    * 
+    * @param pt
     * @pdOid e06c6cc8-4aa1-493f-b397-a9da9441029a */
    @Override
    public void MoveTo(Point pt) {

@@ -1,7 +1,7 @@
 /***********************************************************************
- * Module:  IDrawableObject.java
+ * Module:  IEntity.java
  * Author:  Welcome
- * Purpose: Defines the Interface IDrawableObject
+ * Purpose: Defines the Interface IEntity
  ***********************************************************************/
 
 package com.nvkit.mygame.concept;
@@ -11,7 +11,7 @@ import java.util.*;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
 /** @pdOid e84bb2d3-d720-4478-bae9-573c38fca7e6 */
-public interface IDrawableObject {
+public interface IEntity extends UpdateAble {
    /** @pdOid f619d246-4844-4838-ac4a-6c53fd5d7c61 */
    Point getLocation();
    /** @param pt
@@ -31,8 +31,6 @@ public interface IDrawableObject {
    /** @param h
     * @pdOid 6893457d-0eb4-439a-9b49-f2d1b82b5a07 */
    void setHeight(float h);
-   /** @pdOid 1bf39808-d0fc-4fe4-a9cb-3cb6632371ab */
-   void Draw();
    /** @param pt
     * @pdOid 751ec390-5795-4020-82f1-de534cee682b */
    void MoveTo(Point pt);
