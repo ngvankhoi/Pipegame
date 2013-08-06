@@ -24,7 +24,7 @@ import com.badlogic.gdx.graphics.Texture;
 import java.util.*;
 
 /** @pdOid ef4f5e65-03ce-48b9-9ddb-3cc1bc09ba2a */
-public class Scene implements com.nvkit.mygame.concept.IEntity {
+public class Scene extends Entity {
    /** @pdOid 6f959075-7366-4dbc-b7d1-0f847943c845
        @pdRoleInfo migr=yes name=SpriteBatch assc=association5 */
    private SpriteBatch batch;
@@ -70,7 +70,7 @@ public class Scene implements com.nvkit.mygame.concept.IEntity {
    		// TODO: implement
    
    ///////////// test draw able;
-   		DrawAble da = new DrawAble() {
+   		Entity da = new Entity() {
    			Sprite sprite;
    			{
    				TextureRegion region = new TextureRegion(Resource.texture, 0,
@@ -90,15 +90,23 @@ public class Scene implements com.nvkit.mygame.concept.IEntity {
    				sprite.draw(batch);
    			}
    		};
-   		//this.addDrawObject(da);
+   		this.addEntity(da);
    	///////////////////// end test
    	}
    
    /** @param da
     * @pdOid 05a33819-76ac-4ef8-aa86-23d09721144b */
-   public void addDrawObject(DrawAble da) {
+   public void addEntity(Entity da) {
    	// TODO Auto-generated method stub
-   	midground.addDrawObject(da);
+   	midground.addChildEntities(da);
+   }
+   
+   /** @param newEntity
+    * @pdOid 60042b14-fc79-433d-9fe0-041acb1753f4 */
+   @Override
+   public void addChildEntities(Entity newEntity) {
+   	// TODO Auto-generated method stub
+   	midground.addChildEntities(newEntity);
    }
    
    /** @pdOid 149c56b0-61bf-46fa-a47c-733ed09c6fc4 */

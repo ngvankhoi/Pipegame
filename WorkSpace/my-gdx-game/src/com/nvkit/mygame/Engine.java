@@ -22,8 +22,9 @@ public abstract class Engine implements com.nvkit.mygame.concept.IEngine, com.ba
    }
    
    /**             coll=java.util.Collection impl=java.util.HashSet mult=0..* */
-   /** @pdRoleInfo migr=no name=IUpdateAble assc=association6 coll=java.util.List impl=java.util.LinkedList mult=0..* */
-   public java.util.List<IUpdateAble> updateControl;
+   /** @pdOid 844ba0f8-71d6-4183-8c26-5b2f71a7355d
+       @pdRoleInfo migr=yes name=IUpdateAble assc=association6 coll=java.util.List impl=java.util.LinkedList mult=0..* */
+   public java.util.List<IUpdateAble> updates;
    
    /** @pdOid f191c596-0127-45d5-addc-3a5bc592351d */
    public void create() {
@@ -38,8 +39,8 @@ public abstract class Engine implements com.nvkit.mygame.concept.IEngine, com.ba
    @Override
    public void update() {
       	// TODO Auto-generated method stub
-   if(!getUpdateControl().isEmpty())
-   	for (IUpdateAble ud : updateControl) {
+   if(updates != null)
+   	for (IUpdateAble ud : updates) {
        		ud.update();
        	}
       getScene().show();
@@ -50,8 +51,8 @@ public abstract class Engine implements com.nvkit.mygame.concept.IEngine, com.ba
    @Override
    public void setScene(Scene sc) {
    	// TODO Auto-generated method stub
-    	removeUpdateControl(scene);
-    	addUpdateControl(sc);
+    	removeUpdates(scene);
+    	addUpdates(sc);
     	this.scene = sc;
     	this.scene.setMyEngine(this);
    }
@@ -71,52 +72,52 @@ public abstract class Engine implements com.nvkit.mygame.concept.IEngine, com.ba
    
    
    /** @pdGenerated default getter */
-   public java.util.List<IUpdateAble> getUpdateControl() {
-      if (updateControl == null)
-         updateControl = new java.util.LinkedList<IUpdateAble>();
-      return updateControl;
+   public java.util.List<IUpdateAble> getUpdates() {
+      if (updates == null)
+         updates = new java.util.LinkedList<IUpdateAble>();
+      return updates;
    }
    
    /** @pdGenerated default iterator getter */
-   public java.util.Iterator getIteratorUpdateControl() {
-      if (updateControl == null)
-         updateControl = new java.util.LinkedList<IUpdateAble>();
-      return updateControl.iterator();
+   public java.util.Iterator getIteratorUpdates() {
+      if (updates == null)
+         updates = new java.util.LinkedList<IUpdateAble>();
+      return updates.iterator();
    }
    
    /** @pdGenerated default setter
-     * @param newUpdateControl */
-   public void setUpdateControl(java.util.List<IUpdateAble> newUpdateControl) {
-      removeAllUpdateControl();
-      for (java.util.Iterator iter = newUpdateControl.iterator(); iter.hasNext();)
-         addUpdateControl((IUpdateAble)iter.next());
+     * @param newUpdates */
+   public void setUpdates(java.util.List<IUpdateAble> newUpdates) {
+      removeAllUpdates();
+      for (java.util.Iterator iter = newUpdates.iterator(); iter.hasNext();)
+         addUpdates((IUpdateAble)iter.next());
    }
    
    /** @pdGenerated default add
      * @param newIUpdateAble */
-   public void addUpdateControl(IUpdateAble newIUpdateAble) {
+   public void addUpdates(IUpdateAble newIUpdateAble) {
       if (newIUpdateAble == null)
          return;
-      if (this.updateControl == null)
-         this.updateControl = new java.util.LinkedList<IUpdateAble>();
-      if (!this.updateControl.contains(newIUpdateAble))
-         this.updateControl.add(newIUpdateAble);
+      if (this.updates == null)
+         this.updates = new java.util.LinkedList<IUpdateAble>();
+      if (!this.updates.contains(newIUpdateAble))
+         this.updates.add(newIUpdateAble);
    }
    
    /** @pdGenerated default remove
      * @param oldIUpdateAble */
-   public void removeUpdateControl(IUpdateAble oldIUpdateAble) {
+   public void removeUpdates(IUpdateAble oldIUpdateAble) {
       if (oldIUpdateAble == null)
          return;
-      if (this.updateControl != null)
-         if (this.updateControl.contains(oldIUpdateAble))
-            this.updateControl.remove(oldIUpdateAble);
+      if (this.updates != null)
+         if (this.updates.contains(oldIUpdateAble))
+            this.updates.remove(oldIUpdateAble);
    }
    
    /** @pdGenerated default removeAll */
-   public void removeAllUpdateControl() {
-      if (updateControl != null)
-         updateControl.clear();
+   public void removeAllUpdates() {
+      if (updates != null)
+         updates.clear();
    }
 
 }
