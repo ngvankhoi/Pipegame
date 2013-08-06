@@ -4,7 +4,7 @@
  * Purpose: Defines the Interface ListeneAble
  ***********************************************************************/
 
-package com.nvkit.mygame;
+package com.nvkit.mygame.concept;
 
 import java.util.*;
 
