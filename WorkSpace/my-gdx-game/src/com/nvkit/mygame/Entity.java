@@ -20,10 +20,7 @@ public abstract class Entity implements com.nvkit.mygame.concept.IEntity, com.nv
    /** @pdOid 1e9d5bf0-a508-4859-8454-e75918b6de27 */
    private java.util.List<Runnable> runtime;
    
-   protected boolean isFlipy=false,isFlipx= false;
-   protected Point location;
-   protected float width,height;
-//   private SpriteBatch SB;
+   
    /** @pdGenerated default getter */
    public java.util.List<Entity> getChildEntities() {
       if (childEntities == null)
@@ -192,22 +189,21 @@ public abstract class Entity implements com.nvkit.mygame.concept.IEntity, com.nv
    @Override
    public void Flip(boolean X, boolean Y) {
    	// TODO Auto-generated method stub
-   	isFlipx=X;
-   	isFlipy=Y;
+   	
    }
    
    /** @pdOid fe9c1709-cc75-4583-95ff-9d3e97ee804b */
    @Override
    public boolean IsFlipX() {
    	// TODO Auto-generated method stub
-   	return isFlipx;
+   	return false;
    }
    
    /** @pdOid 970ece50-a76c-489f-8593-d629910b844b */
    @Override
    public boolean IsFlipY() {
    	// TODO Auto-generated method stub
-   	return isFlipy;
+   	return false;
    }
    
    /** @param batch

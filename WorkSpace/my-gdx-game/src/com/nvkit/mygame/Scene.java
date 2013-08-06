@@ -7,8 +7,8 @@
 package com.nvkit.mygame;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.nvkit.mygame.concept.IEngine;
 import com.nvkit.mygame.concept.IDrawAble;
+import com.nvkit.mygame.concept.IEngine;
 import java.lang.annotation.*;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.nvkit.mygame.concept.IEntity;
@@ -45,7 +45,7 @@ public class Scene extends Entity {
    /** @pdOid 9dba13d8-35cd-4166-ac3f-73909303ac7b */
    private Color backColor = Color.BLUE;
    
-   /** @pdRoleInfo migr=no name=IEngine assc=association8 mult=1..1 */
+   /** @pdRoleInfo migr=no name=IEngine assc=association15 mult=1..1 */
    private IEngine myEngine;
    
    /** @pdOid 89b74a87-a4fc-4aa8-8c87-9b6ec769030e */
